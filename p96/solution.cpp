@@ -97,7 +97,7 @@ int main() {
 
   // Find answer
   std::ifstream file("sudoku.txt");
-  int sum = 1;
+  int sum = 0;
   for (int i = 1; i <= 50; i++) {
     auto r1 = high_resolution_clock::now(); // 
     Sudoku s = loadSudoku(file);
